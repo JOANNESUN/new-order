@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.App__header {
+  background-color: #E5E5E5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App__container{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px 0px;
+gap: 24px;
+width: 345px;
+height: 468px;
+background: #FFFFFF;
+}
+
+.App__title{
+width: 313px;
+height: 56px;
+background: #2E61DE;
+border-radius: 4px;
+flex: none;
+font-Weight:700;
+font-Size:16px;
+Line-height:24px;
+display: flex;
+display: flex;
+align-items: center; /* Vertical center alignment */
+justify-content: center; /* Horizontal center alignment */
+color:#FFFFFF;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+}
+
+.App__item__container{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 320px;
+  width: 300px;
+}
+
+.App-button:hover {background-color: #57A0F4 }
+
+.App__total__container{
+display:flex;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+color: #464A51;
+}
+
+.App__total{
+  margin-right: 7em;
+}
+
+

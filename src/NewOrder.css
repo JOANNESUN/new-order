@@ -1,0 +1,49 @@
+.New__order__container {
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  height: 60px;
+  gap: 0px 0px;
+}
+
+.control__wrapper {
+  display: flex !important;
+  align-items: center !important;
+  background: #d7dce1;
+  border-radius: 19.5px;
+  height: 36px;
+  width: 107px;
+  margin-top: 0.7em;
+}
+
+button {
+  background: #d7dce1;
+  border-radius: 19.5px;
+  border: none !important;
+  width: 29px;
+  height: 36px;
+  align-self: center;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+p {
+  background: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 7px 21px 7px 21px;
+}
+
+.New__order__item {
+  font-size: 15px;
+  line-height: 24px;
+  align-self: center;
+  text-align: start;
+}
+
+.New__order__price{
+  font-size: 15px;
+  line-height: 24px;
+  align-self: center;
+  text-align: end;
+}
